@@ -1,0 +1,96 @@
+{
+  "Location": "United States",
+  "MaxAmountTaxPerDay": 60,
+  "HourLimit": 120,
+  "FreeDayOfWeekList": [
+    "Saturday",
+    "Friday"
+  ],
+  "PublicHolidays": [
+    "2013-01-01",
+    "2013-03-28",
+    "2013-03-29"
+  ],
+  "BeforePublicHoliDay": [
+    "2013-03-27",
+    "2013-03-28",
+    "2013-03-30"
+  ],
+  "duringSpecialmonth": [
+    "2013-07-03",
+    "2013-07-04",
+    "2013-07-05"
+  ],
+  "FreeVehicleList": [
+    {
+      "Name": "Emergency"
+    },
+    {
+      "Name": "Busses"
+    },
+    {
+      "Name": "Diplomat"
+    },
+    {
+      "Name": "Motorcycles"
+    },
+    {
+      "Name": "Military"
+    },
+    {
+      "Name": "Foreign"
+    }
+  ],
+  "TaxTimeRates": [
+    {
+      "StartTime": "06:00",
+      "EndTime": "06:29",
+      "Amount": 8.00
+    },
+    {
+      "StartTime": "06:30",
+      "EndTime": "06:59",
+      "Amount": 13.00
+    },
+    {
+      "StartTime": "07:00",
+      "EndTime": "07:59",
+      "Amount": 18.00
+    },
+    {
+      "StartTime": "08:00",
+      "EndTime": "08:29",
+      "Amount": 13.00
+    },
+    {
+      "StartTime": "08:30",
+      "EndTime": "14:59",
+      "Amount": 8.00
+    },
+    {
+      "StartTime": "15:00",
+      "EndTime": "15:29",
+      "Amount": 13.00
+    },
+    {
+      "StartTime": "15:30",
+      "EndTime": "16:59",
+      "Amount": 18.00
+    },
+    {
+      "StartTime": "17:00",
+      "EndTime": "17:59",
+      "Amount": 13.00
+    },
+    {
+      "StartTime": "18:00",
+      "EndTime": "18:29",
+      "Amount": 8.00
+    },
+    {
+      "StartTime": "18:30",
+      "EndTime": "05:59",
+      "Amount": 0.00
+    }
+  ]
+}
