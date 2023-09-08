@@ -17,22 +17,19 @@ namespace Congestion_Tax_Calculator.Pages
             _logger = logger;
         }
 
-        public void OnGet()
-        {
-
-        }
 
         public IActionResult OnPost()
         {
+            /// get content.json file from wwwroot/Datasource folder and deserialize object
             TaxRuleBase BaseObj = JsonDataContent.GetDataSourceAsJson();
 
             if (BaseObj == null)
                 return new JsonResult("Error in converting the input file");
 
-            // getting desired vehicle from client  
+            // getting desired vehicle from client (eg. User input field)  
             Vehicle vehicleObj = new Vehicle()
             {
-                Name = "Busses"
+                Name = "Arizo"
             };
 
             // getting desired data time to calculate tax congestion
