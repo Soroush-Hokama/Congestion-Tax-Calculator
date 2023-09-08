@@ -27,7 +27,7 @@ namespace Congestion_Tax_Calculator.Application
             // get the Hours and amounts for congestion tax
             Rate = new TaxRate(Rule);
             if (Rule == null)
-                return "the rate of tax is not provided";
+                return "The rate of tax is not provided";
             DateTime intervalStart = clientDateTimes[0];
             decimal totalTax = 0;
             foreach (DateTime date in clientDateTimes)
